@@ -1,0 +1,21 @@
+# Site settings
+title: Life at Learn Verified
+header-img: img/home-bg.png
+email: kingsingchow@hotmail.com
+copyright_name: Kingbeaman
+description: > # this means to ignore newlines until "baseurl:"
+  Dreams Hopes Fears Struggles and Triumphs
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: KingBeaman
+github_username:  Kingbeaman
+learn_profile: Kingbeaman
+email_username: kingsingchow@hotmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
